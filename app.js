@@ -5,7 +5,7 @@ var express = require('express')
 var bodyParser = require('body-parser')
 
 var fs = require('fs')
-var helper = require('./utils/Helper')
+var helper = require('./utils/helper')
 
 // Create app
 var app = express()
