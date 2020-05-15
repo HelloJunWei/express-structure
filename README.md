@@ -17,5 +17,10 @@ Express 架構練習。
 +-- www
 +-- config.js
 +-- config.json
++-- ecosystem.config.js
 ```
+## 啟動服務 
 
+```
+pm2 start ecosystem.config.js
+```
