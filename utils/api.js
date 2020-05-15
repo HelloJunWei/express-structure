@@ -1,4 +1,4 @@
-const helper = require('./Helper')
+const helper = require('./helper')
 var callback = (route, base, func) => {
   return async (req, res, next) => {
     res.ok = (data) => res.json({ code: 0, message: 'ok', data: helper.unitTime(data) })
