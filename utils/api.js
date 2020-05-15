@@ -1,7 +1,7 @@
 const helper = require('./Helper')
 var callback = (route, base, func) => {
   return async (req, res, next) => {
-    res.ok = (data) => res.json({ code: 0, message: 'ok', data: helper.ts2unixms(data) })
+    res.ok = (data) => res.json({ code: 0, message: 'ok', data: helper.unitTime(data) })
     res.err = (code, message, error) => res.rtn({ code: code, message: message, error: error })
     try {
       await func(req, res, next)

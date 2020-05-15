@@ -50,8 +50,9 @@ void (() => {
 })().then(() => {
   // handle error
   app.use((err, req, res, next) => {
+    /* 利用 req.baseRoute 知道是哪個 restful API 出了錯，並通知開發者 */
     console.error(`${req.baseRoute}: ${err}`)
-    // sendMailToAdmin()
+    // sendMailToDeveloper()
     if (err[0]) res.status(err[0]).json({ code: err[0], message: err[1] })
     else res.status(500).json({ code: 500, message: err })
     
