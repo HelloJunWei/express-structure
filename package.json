@@ -1,0 +1,22 @@
+{
+  "name": "express-structure",
+  "version": "1.0.0",
+  "description": "Express file structure demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloJunWei/express-structure.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Neil Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloJunWei/express-structure/issues"
+  },
+  "homepage": "https://github.com/HelloJunWei/express-structure#readme"
+}
