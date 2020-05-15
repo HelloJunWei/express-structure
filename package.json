@@ -2,7 +2,7 @@
   "name": "express-structure",
   "version": "1.0.0",
   "description": "Express file structure demo",
-  "main": "app.js",
+  "main": "www",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/HelloJunWei/express-structure/issues"
   },
-  "homepage": "https://github.com/HelloJunWei/express-structure#readme"
+  "homepage": "https://github.com/HelloJunWei/express-structure#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "pm2": "^4.4.0"
+  }
 }
