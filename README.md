@@ -6,7 +6,7 @@ Express 架構練習。
 ```
 +-- models
 |   +-- user.js
-|   +-- user.js
+|   +-- product.js
 +-- routes
 |   +-- user.js
 |   +-- product.js
