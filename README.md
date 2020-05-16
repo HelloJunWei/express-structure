@@ -31,3 +31,18 @@ Express 架構練習。
 ```
 pm2 start ecosystem.config.js
 ```
+啟動後在瀏覽器輸入: localhost:5000/api/user/user?user_id=1，就可以看到輸出結果了。
+
+***輸出結果***
+
+
+<img width="400" alt="screenshot" src="https://user-images.githubusercontent.com/18310281/82120522-56d89580-97b9-11ea-82f0-44e4030085c5.png">
+
+
+***錯誤回傳***
+
+
+<img width="400" alt="截圖 2020-05-16 下午8 49 52" src="https://user-images.githubusercontent.com/18310281/82120654-52f94300-97ba-11ea-9fc4-215c92534061.png">
+
+
+
