@@ -23,8 +23,9 @@ Express 架構練習。
 
 - ***utils***: 包含自己定義的底層function.
 - ***utils/api.js***: 在express中，在包一層自定義的中間件，方便除錯以及輸出格式統一。
-- ***utils/validate.js*** express-validator的驗證模式
-- ***config.json*** 設定檔~並藉由config.js檢查是否有少必要設定檔(正常專案下並不會把config.json 放入git內，此為示範範例)
+- ***utils/validate.js***: express-validator的驗證模式
+- ***config.json***: 設定檔~並藉由config.js檢查是否有少必要設定檔(正常專案下並不會把config.json 放入git內，此為示範範例)
+- ***ecosystem.config.js***: pm2 的啟動檔案
 ## 啟動服務 
 
 ```
