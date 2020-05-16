@@ -13,12 +13,18 @@ Express 架構練習。
 +-- utils
 |   +-- helper.js
 |   +-- api.js
+|   +-- validate.js
 +-- app.js
 +-- www
 +-- config.js
 +-- config.json
 +-- ecosystem.config.js
 ```
+
+- ***utils***: 包含自己定義的底層function.
+- ***utils/api.js***: 在express中，在包一層自定義的中間件，方便除錯以及輸出格式統一。
+- ***utils/validate.js*** express-validator的驗證模式
+- ***config.json*** 設定檔~並藉由config.js檢查是否有少必要設定檔(正常專案下並不會把config.json 放入git內，此為示範範例)
 ## 啟動服務 
 
 ```
