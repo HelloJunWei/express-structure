@@ -29,7 +29,8 @@ Express 架構練習。
 ## 啟動服務 
 
 ```
-pm2 start ecosystem.config.js
+1. npm run tsc.
+2. pm2 start ecosystem.config.js
 ```
 啟動後在瀏覽器輸入: localhost:5000/api/user/user?user_id=1，就可以看到輸出結果了。
 
