@@ -1,6 +1,8 @@
 {
   "files":[
-    "app.ts" 
+    "app.ts",
+   "./class/class.ts" ,
+   "./routes/user.ts"
   ],
   "exclude":[
     "node_modules",

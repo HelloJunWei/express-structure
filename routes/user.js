@@ -1,6 +1,7 @@
 const api = require('../utils/api')('user')
 const User = require('../models/user')
 const { query, validationResult } = require('express-validator')
+const { Car }  = require('../class/class.js')
 
 api.get('/user', [
   query('user_id').notEmpty().isString().trim().escape().custom(value => [1, 2].indexOf(parseInt(value)) !== -1).withMessage('error user_id'),
@@ -11,6 +12,8 @@ api.get('/user', [
   if (!errors.isEmpty()) throw [400, errors.array()[0].msg]
   const user_id = req.query.user_id
   const user = User.user_list.find(obj => obj.id === parseInt(user_id))
+  let car = new Car('test car')
+  car.move()
   res.ok({ user })
 
 })
